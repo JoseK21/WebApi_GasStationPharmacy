@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_WebApiGasStationPharmacy.-949348003.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.1/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.1/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.1/build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="WebApiGasStationPharmacy/src" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="client" t="Include">
+            <e p="ClientController.cs" t="Include" />
+          </e>
+          <e p="v1" t="Include">
+            <e p="ValuesController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewModel" t="Include">
+          <e p="Client.cs" t="Include" />
+          <e p="PaginatedItemsViewModel.cs" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="WebApiGasStationPharmacy.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="WebApiGasStationPharmacy.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="WebApiGasStationPharmacy/tests" t="IncludeRecursive">
+        <e p="UnitTest1.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="tests.AssemblyInfo.cs" t="Include" />
+              <e p="tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="tests.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebApiGasStationPharmacy.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
