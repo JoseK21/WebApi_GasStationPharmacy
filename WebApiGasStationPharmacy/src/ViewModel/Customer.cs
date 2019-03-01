@@ -5,9 +5,10 @@
     {
         public string ID;
         public string Name;
+        public string LastName;
         public string Address;
         public string Birthday;
-        public int PhoneNumber;
+        public string PhoneNumber;
         public string MedicalHistory;
     }
 }

@@ -9,10 +9,9 @@ namespace WebApiGasStationPharmacy.Controllers
     public class CustomerController : Controller
     {
         private static List<Customer> customers = new List<Customer>();
-
+        
         [HttpGet]
         [Route("customers")]
-         
         public  IActionResult Get()
         {
             return Ok(customers);
@@ -22,7 +21,6 @@ namespace WebApiGasStationPharmacy.Controllers
         // GET: api/Customer/5
         [HttpGet]
         [Route("customers/{id}")]
-         
         public  IActionResult Get(string id)
         {
             for (int i = 0; i < customers.Count; i++)
@@ -35,20 +33,18 @@ namespace WebApiGasStationPharmacy.Controllers
         // POST: api/Customer
         [HttpPost]
         [Route("customers/new")]
-         
-        public  IActionResult Post([FromBody]string value)
+        public  IActionResult Post(string value)
         {
             System.Diagnostics.Debug.WriteLine(value);
             Customer new_cust = JsonConvert.DeserializeObject<Customer>(value);
             customers.Add(new_cust);
             return Ok();
         }
-
+        
         // PUT: api/Customer/5
         [HttpPut]
         [Route("customers/update/{id}")]
-         
-        public  IActionResult Put(string id, [FromBody]string value)
+        public  IActionResult Put(string id,string value)
         {
             Customer new_cust = JsonConvert.DeserializeObject<Customer>(value);
 
@@ -60,6 +56,7 @@ namespace WebApiGasStationPharmacy.Controllers
                     cust.Address = new_cust.Address;
                     cust.Birthday = new_cust.Address;
                     cust.Name = new_cust.Name;
+                    cust.LastName = new_cust.LastName;
                     cust.MedicalHistory = new_cust.MedicalHistory;
                     cust.PhoneNumber = new_cust.PhoneNumber;
                     return Ok();
@@ -71,8 +68,7 @@ namespace WebApiGasStationPharmacy.Controllers
         // DELETE: api/Customer/5
         [HttpDelete]
         [Route("customers/delete/{id}")]
-         
-        public  IActionResult Delete( string id)
+        public  IActionResult Delete(string id)
         {
             for (int i = 0; i < customers.Count; i++)
             {

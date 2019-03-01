@@ -12,7 +12,6 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpGet]
         [Route("medicines")]
-          
         public IActionResult Get()
         {
             return Ok(Medicines);
@@ -20,7 +19,6 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpGet]
         [Route("medicines/{name}")]
-          
         public IActionResult Get(string name)
         {
             for (int i = 0; i < Medicines.Count; i++)
@@ -32,8 +30,7 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpPost]
         [Route("medicines/new")]
-          
-        public IActionResult Post([FromBody]string value)
+        public IActionResult Post(string value)
         {
             System.Diagnostics.Debug.WriteLine(value);
             Medicine new_cust = JsonConvert.DeserializeObject<Medicine>(value);
@@ -43,8 +40,7 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpPut]
         [Route("medicines/update/{name}")]
-          
-        public IActionResult Put(string name, [FromBody]string value)
+        public IActionResult Put(string name,string value)
         {
             Medicine new_med = JsonConvert.DeserializeObject<Medicine>(value);
 
@@ -65,8 +61,7 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpDelete]
         [Route("medicines/delete/{name}")]
-          
-        public IActionResult Delete( string name)
+        public IActionResult Delete(string name)
         {
             for (int i = 0; i < Medicines.Count; i++)
             {

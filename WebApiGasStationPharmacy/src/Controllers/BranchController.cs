@@ -31,7 +31,7 @@ namespace webapigasstationpharmacy.Controllers
 
         [HttpPost]
         [Route("Branchs/new")]
-        public IActionResult Post([FromBody]string value)
+        public IActionResult Post(string value)
         {
             System.Diagnostics.Debug.WriteLine(value);
             Branch new_cust = JsonConvert.DeserializeObject<Branch>(value);
@@ -42,7 +42,7 @@ namespace webapigasstationpharmacy.Controllers
         [HttpPut]
         [Route("Branchs/update/{name}")]
         
-        public IActionResult Put(string name, [FromBody]string value)
+        public IActionResult Put(string name, string value)
         {
             Branch new_branch = JsonConvert.DeserializeObject<Branch>(value);
 

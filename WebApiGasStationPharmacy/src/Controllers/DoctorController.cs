@@ -13,7 +13,6 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpGet]
         [Route("doctors")]
-        [DisableCors]
         public  IActionResult Get()
         {
             return Ok(Doctors);
@@ -21,7 +20,6 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpGet]
         [Route("doctors/{id}")]
-        [DisableCors]
         public  IActionResult Get(string id)
         {
             for (int i = 0; i < Doctors.Count; i++)
@@ -33,8 +31,7 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpPost]
         [Route("doctors/new")]
-        [DisableCors]
-        public  IActionResult Post([FromBody]string value)
+        public  IActionResult Post(string value)
         {
             System.Diagnostics.Debug.WriteLine(value);
             Doctor new_cust = JsonConvert.DeserializeObject<Doctor>(value);
@@ -44,8 +41,7 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpPut]
         [Route("doctors/update/{id}")]
-        [DisableCors]
-        public  IActionResult Put(string id, [FromBody]string value)
+        public  IActionResult Put(string id, string value)
         {
             Doctor new_doc = JsonConvert.DeserializeObject<Doctor>(value);
 
@@ -65,8 +61,7 @@ namespace WebApiGasStationPharmacy.Controllers
 
         [HttpDelete]
         [Route("doctors/delete/{id}")]
-        [DisableCors]
-        public  IActionResult Delete( string id)
+        public  IActionResult Delete(string id)
         {
             for (int i = 0; i < Doctors.Count; i++)
             {

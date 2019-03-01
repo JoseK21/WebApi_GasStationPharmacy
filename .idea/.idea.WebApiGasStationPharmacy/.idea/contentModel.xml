@@ -29,7 +29,6 @@
         <e p="Startup.cs" t="Include" />
         <e p="ViewModel" t="Include">
           <e p="Branch.cs" t="Include" />
-          <e p="Client.cs" t="Include" />
           <e p="Customer.cs" t="Include" />
           <e p="Doctor.cs" t="Include" />
           <e p="Medicine.cs" t="Include" />
