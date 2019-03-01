@@ -11,10 +11,15 @@
       <e p="WebApiGasStationPharmacy/src" t="IncludeRecursive">
         <e p=".dockerignore" t="Include" />
         <e p="Controllers" t="Include">
+          <e p="BranchController.cs" t="Include" />
+          <e p="CustomerController.cs" t="Include" />
+          <e p="DoctorController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
-          <e p="client" t="Include">
-            <e p="ClientController.cs" t="Include" />
-          </e>
+          <e p="MedicineController.cs" t="Include" />
+          <e p="PackageController.cs" t="Include" />
+          <e p="RecipeController.cs" t="Include" />
+          <e p="RoleController.cs" t="Include" />
+          <e p="ValuesController.cs" t="Include" />
           <e p="v1" t="Include">
             <e p="ValuesController.cs" t="Include" />
           </e>
@@ -23,9 +28,17 @@
         <e p="Program.cs" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="ViewModel" t="Include">
+          <e p="Branch.cs" t="Include" />
           <e p="Client.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="Doctor.cs" t="Include" />
+          <e p="Medicine.cs" t="Include" />
+          <e p="Package.cs" t="Include" />
           <e p="PaginatedItemsViewModel.cs" t="Include" />
+          <e p="Recipe.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
         </e>
+        <e p="Web.Release.config" t="Include" />
         <e p="Web.config" t="Include" />
         <e p="WebApiGasStationPharmacy.csproj" t="IncludeRecursive" />
         <e p="appsettings.Development.json" t="Include" />

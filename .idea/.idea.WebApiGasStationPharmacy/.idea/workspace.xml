@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5a783b6-b884-4fb8-ad04-aff3ac93fb90" name="Default Changelist" comment="" />
+    <list default="true" id="a5a783b6-b884-4fb8-ad04-aff3ac93fb90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/BranchController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/CustomerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/DoctorController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/MedicineController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/PackageController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RecipeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RoleController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Branch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Doctor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Medicine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Package.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Recipe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.Release.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApiGasStationPharmacy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApiGasStationPharmacy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApiGasStationPharmacy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApiGasStationPharmacy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/client/ClientController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.config" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,44 +32,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/client/ClientController.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/BranchController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
-                <marker date="1550976695077" expanded="false" signature="6:210" ph="..." />
-                <marker date="1550976695077" expanded="true" signature="258:1571" ph="{...}" />
-                <marker date="1550976695077" expanded="true" signature="346:1569" ph="{...}" />
-                <marker date="1550976695077" expanded="true" signature="410:639" ph="{...}" />
-                <marker date="1550976695077" expanded="true" signature="741:788" ph="{...}" />
-                <marker date="1550976695077" expanded="true" signature="909:1324" ph="{...}" />
-                <marker date="1550976695077" expanded="true" signature="1023:1272" ph="/* var clientList = (from client in Client where client.iD.Equals(id) select new {client.iD, client.age, client.n ... */" />
-                <marker date="1550976695077" expanded="true" signature="1470:1562" ph="{...}" />
+                <marker date="1551412854569" expanded="false" signature="6:149" ph="..." />
+                <marker date="1551412854569" expanded="true" signature="197:2302" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="246:2300" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="401:454" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="563:790" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="626:749" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="899:1111" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="1250:1876" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="1392:1835" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="1467:1821" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="1990:2294" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="2053:2253" ph="{...}" />
+                <marker date="1551412854569" expanded="true" signature="2128:2239" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/appsettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[DisableCors]</find>
+      <find>IHttpActionResult</find>
+      <find>[FromUri]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>IActionResult</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,10 +79,25 @@
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/PaginatedItemsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Branch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Doctor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/client/ClientController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Medicine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Package.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Recipe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/BranchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/CustomerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/DoctorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/MedicineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/PackageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RecipeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.Release.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RoleController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,22 +109,39 @@
         <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Client.cs" />
         <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/c1/ClientController.cs" />
         <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/client/ClientController.cs" />
-        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs" />
         <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.config" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/MainController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Branch.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Customer.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Doctor.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Medicine.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Package.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Recipe.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Role.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RoleController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RecipeController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/PackageController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/MedicineController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/DoctorController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/CustomerController.cs" />
+        <option value="$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/BranchController.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="4" />
-    <option name="width" value="902" />
-    <option name="height" value="484" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="679" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -103,6 +159,7 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -110,6 +167,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Escritorio/ASP-Pharmacy-Manager-master/ASP-Rest-Pharmacy.sln" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -163,12 +221,14 @@
       <option name="presentableId" value="Default" />
       <updated>1550954242213</updated>
       <workItem from="1550954246663" duration="24941000" />
-      <workItem from="1551120018817" duration="732000" />
+      <workItem from="1551120018817" duration="2393000" />
+      <workItem from="1551295853808" duration="7021000" />
+      <workItem from="1551410487498" duration="2999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25673000" />
+    <option name="totallyTimeSpent" value="37354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,27 +242,27 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19039735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.63366336" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.63245034" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32838285" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3294702" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3294702" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32615894" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,66 +318,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-          <folding>
-            <marker date="1550972123703" expanded="true" signature="44:465" ph="{...}" />
-            <marker date="1550972123703" expanded="true" signature="70:463" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/PaginatedItemsViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <marker date="1550954237511" expanded="true" signature="79:650" ph="{...}" />
-            <marker date="1550954237511" expanded="true" signature="153:648" ph="{...}" />
-            <marker date="1550954237511" expanded="true" signature="482:642" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1550954253483" expanded="false" signature="6:128" ph="..." />
-            <marker date="1550954253483" expanded="true" signature="176:378" ph="{...}" />
-            <marker date="1550954253483" expanded="true" signature="223:376" ph="{...}" />
-            <marker date="1550954253483" expanded="true" signature="297:370" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <marker date="1550986550040" expanded="false" signature="6:203" ph="..." />
-            <marker date="1550986550040" expanded="true" signature="254:2098" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="342:2096" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="487:1238" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="538:697" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="845:971" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="988:1094" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="1342:1400" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="1516:1660" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="1557:1620" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="1784:1929" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="1825:1888" ph="{...}" />
-            <marker date="1550986550040" expanded="true" signature="2038:2090" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -332,30 +334,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/client/ClientController.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.Release.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <marker date="1550976695077" expanded="false" signature="6:210" ph="..." />
-            <marker date="1550976695077" expanded="true" signature="258:1571" ph="{...}" />
-            <marker date="1550976695077" expanded="true" signature="346:1569" ph="{...}" />
-            <marker date="1550976695077" expanded="true" signature="410:639" ph="{...}" />
-            <marker date="1550976695077" expanded="true" signature="741:788" ph="{...}" />
-            <marker date="1550976695077" expanded="true" signature="909:1324" ph="{...}" />
-            <marker date="1550976695077" expanded="true" signature="1023:1272" ph="/* var clientList = (from client in Client where client.iD.Equals(id) select new {client.iD, client.age, client.n ... */" />
-            <marker date="1550976695077" expanded="true" signature="1470:1562" ph="{...}" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/tests/tests.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -366,10 +357,330 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/MainController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Web.config">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1550954253483" expanded="false" signature="6:128" ph="..." />
+            <marker date="1550954253483" expanded="true" signature="176:378" ph="{...}" />
+            <marker date="1550954253483" expanded="true" signature="223:376" ph="{...}" />
+            <marker date="1550954253483" expanded="true" signature="297:370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Branch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+          <folding>
+            <marker date="1551412293550" expanded="true" signature="44:207" ph="{...}" />
+            <marker date="1551412293550" expanded="true" signature="70:205" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1550972123703" expanded="true" signature="44:465" ph="{...}" />
+            <marker date="1550972123703" expanded="true" signature="70:463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+          <folding>
+            <marker date="1551412327720" expanded="true" signature="44:274" ph="{...}" />
+            <marker date="1551412327720" expanded="true" signature="73:272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Doctor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+          <folding>
+            <marker date="1551412360958" expanded="true" signature="44:201" ph="{...}" />
+            <marker date="1551412360958" expanded="true" signature="70:199" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Medicine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+          <folding>
+            <marker date="1551412367356" expanded="true" signature="44:217" ph="{...}" />
+            <marker date="1551412367356" expanded="true" signature="72:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Package.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1551412371493" expanded="true" signature="79:347" ph="{...}" />
+            <marker date="1551412371493" expanded="true" signature="106:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Role.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1551412386961" expanded="true" signature="44:145" ph="{...}" />
+            <marker date="1551412386961" expanded="true" signature="68:143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/Recipe.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1551412377963" expanded="true" signature="79:217" ph="{...}" />
+            <marker date="1551412377963" expanded="true" signature="105:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/ViewModel/PaginatedItemsViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1550954237511" expanded="true" signature="79:650" ph="{...}" />
+            <marker date="1550954237511" expanded="true" signature="153:648" ph="{...}" />
+            <marker date="1550954237511" expanded="true" signature="482:642" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/client/ClientController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/v1/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <marker date="1551410685009" expanded="false" signature="6:203" ph="..." />
+            <marker date="1551410685009" expanded="true" signature="254:2092" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="342:2090" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="487:1238" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="538:697" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="845:971" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="988:1094" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="1342:1394" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="1510:1654" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="1551:1614" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="1778:1923" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="1819:1882" ph="{...}" />
+            <marker date="1551410685009" expanded="true" signature="2032:2084" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <marker date="1551412002196" expanded="true" signature="6:65" ph="..." />
+            <marker date="1551412002196" expanded="true" signature="113:719" ph="{...}" />
+            <marker date="1551412002196" expanded="true" signature="162:717" ph="{...}" />
+            <marker date="1551412002196" expanded="true" signature="235:311" ph="{...}" />
+            <marker date="1551412002196" expanded="true" signature="374:422" ph="{...}" />
+            <marker date="1551412002196" expanded="true" signature="499:519" ph="{...}" />
+            <marker date="1551412002196" expanded="true" signature="604:624" ph="{...}" />
+            <marker date="1551412002196" expanded="true" signature="691:711" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RoleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <marker date="1551412854801" expanded="true" signature="6:216" ph="..." />
+            <marker date="1551412854801" expanded="true" signature="264:2213" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="311:2211" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="467:517" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="617:835" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="677:794" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="953:1158" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="1297:1786" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="1430:1745" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="1502:1731" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="1910:2205" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="1970:2164" ph="{...}" />
+            <marker date="1551412854801" expanded="true" signature="2042:2150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/RecipeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+          <folding>
+            <marker date="1551412854701" expanded="false" signature="6:182" ph="..." />
+            <marker date="1551412854701" expanded="true" signature="230:2280" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="279:2278" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="455:507" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="625:849" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="687:808" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="981:1192" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="1341:1839" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="1479:1798" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="1553:1784" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="1971:2272" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="2033:2231" ph="{...}" />
+            <marker date="1551412854701" expanded="true" signature="2107:2217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/PackageController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+          <folding>
+            <marker date="1551412854629" expanded="true" signature="6:182" ph="..." />
+            <marker date="1551412854629" expanded="true" signature="230:2581" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="280:2579" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="460:513" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="632:855" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="695:814" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="988:1202" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="1352:2140" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="1549:2099" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="1620:2085" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="2273:2573" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="2336:2532" ph="{...}" />
+            <marker date="1551412854629" expanded="true" signature="2407:2518" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/MedicineController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+          <folding>
+            <marker date="1551412854341" expanded="true" signature="6:149" ph="..." />
+            <marker date="1551412854341" expanded="true" signature="197:2370" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="248:2368" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="420:474" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="586:816" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="650:775" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="938:1155" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="1298:1929" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="1442:1888" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="1518:1874" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="2055:2362" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="2119:2321" ph="{...}" />
+            <marker date="1551412854341" expanded="true" signature="2195:2307" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/DoctorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <marker date="1551412854413" expanded="false" signature="6:182" ph="..." />
+            <marker date="1551412854413" expanded="true" signature="230:2316" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="279:2314" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="455:507" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="625:851" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="687:810" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="983:1194" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="1343:1873" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="1481:1832" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="1557:1818" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="2005:2308" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="2067:2267" ph="{...}" />
+            <marker date="1551412854413" expanded="true" signature="2143:2253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/CustomerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+          <folding>
+            <marker date="1551412854513" expanded="false" signature="6:149" ph="..." />
+            <marker date="1551412854513" expanded="true" signature="197:2594" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="248:2592" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="420:540" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="679:905" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="743:864" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="1057:1274" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="1444:2127" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="1589:2086" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="1661:2072" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="2283:2586" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="2347:2545" ph="{...}" />
+            <marker date="1551412854513" expanded="true" signature="2419:2531" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiGasStationPharmacy/src/Controllers/BranchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <marker date="1551412854569" expanded="false" signature="6:149" ph="..." />
+            <marker date="1551412854569" expanded="true" signature="197:2302" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="246:2300" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="401:454" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="563:790" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="626:749" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="899:1111" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="1250:1876" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="1392:1835" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="1467:1821" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="1990:2294" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="2053:2253" ph="{...}" />
+            <marker date="1551412854569" expanded="true" signature="2128:2239" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

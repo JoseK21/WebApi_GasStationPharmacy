@@ -42,7 +42,7 @@ namespace webapigasstationpharmacy.Controllers.v1
         [HttpGet("{id:int}")]
         public IActionResult GetById(int id)
         {
-            return Ok($"value {id}");
+            return Ok($"{id}");
         }
 
         // POST api/values
